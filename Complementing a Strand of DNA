@@ -1,0 +1,11 @@
+s=input()
+a=len(s)
+s=s[a:0:-1]+s[0]
+s=s.replace('A','X')
+s=s.replace('T','A')
+s=s.replace('X','T')
+
+s=s.replace('G','Y')
+s=s.replace('C','G')
+s=s.replace('Y','C')
+print(s)
