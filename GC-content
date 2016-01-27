@@ -1,0 +1,10 @@
+S0=input()
+
+while S0!="":
+
+ while S0!=">":
+  C=S0.count('C')
+  G=S0.count('G')
+  P=(C+G)/len(S0)*100
+  print(P)
+  S0=input()
