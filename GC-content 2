@@ -1,0 +1,9 @@
+S0=input()
+
+while S0!="":
+ for i in range (1, S0[1,len(S0)].find('>')):
+  C=S0.count('C')
+  G=S0.count('G')
+  P=(C+G)/len(S0)*100
+  print(P)
+  S0=input()
